@@ -1,0 +1,217 @@
+ :root{
+ 	--lightblue: #123e7e;
+ 	--darkblue: #004b8c;
+ 	--midblue: #007dd1;
+ }
+ p{
+ 	margin: 0;
+ 	padding:0;
+ }
+
+ .login{
+ 	color: var(--midblue);
+ }
+ 
+ .loginform input{
+ 	background: #fafafa;
+ 	border: none
+ }
+ .loginform{
+ 	border: 1px solid #cccccc;
+ 	width: 400px;
+ }
+
+ .loginicon{
+ 	color: var(--midblue);
+ 	font-size: 20px;
+
+ }
+ .forgetpassword{
+ 	color: var(--midblue);
+ }
+ .navbarblade{
+ 	background: var(--lightblue);
+ 	border-bottom: 5px solid var(--darkblue);
+ }
+ .nav-link{
+ 	color: white !important;
+ 	font-size: 16px;
+ }
+ .active{
+ 	background-color: var(--midblue);
+ 	
+ }
+ .bannerblade{
+ 	background: var(--lightblue);
+ }
+ .background_img{
+ 	background: url(/images/banner-bg.png);
+ 	color: white;
+ }
+ .paragraph{
+ 	margin-top: 20px;
+ 	margin-left: 30px;
+ }
+ .firstpara{
+ 	font-size: 35px;
+ 	line-height: 35px;
+ }
+ .secondpara{
+ 	font-size: 20px;
+ 	font-weight: 500;
+ }
+ .banner_button {
+ 	padding: 8px 10px;
+ 	font-size: 22px;
+ 	background: white;
+ 	color: var(--lightblue);
+ 	font-weight:400;
+ }
+ .banner_button i{
+ 	font-size: 25px;
+ 	
+ }
+.aboutleft h6{
+	font-weight: 400;
+    color: var(--midblue);
+    font-size: 30px;
+}
+.aboutleft p{
+	font-size: 15px;
+
+}
+
+.aboutleftbtn_button{
+	padding: 6px 4px;
+	background: var(--lightblue);
+	color:#fff;
+}
+.aboutnavs .nav-link{
+	color: black !important;
+	font-size: 20px;
+}
+.navlinknews,.navlinkannouncement{
+	background: #fee8b5;
+ 	padding: 8px 43px;
+}
+.navlinkprogram{
+	background: #fdda86!important;
+	padding: 8px 44px;
+}
+
+.firstdetails{
+	font-size: 18px;
+   
+    font-weight: 700;
+    color: #9c0000;
+}
+
+.seconddetails{
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+.details ,.image{
+	padding: 12px 20px;
+}
+.scroll{
+	background: #fdda86;
+	height: 75%;
+	overflow-y: scroll;
+}
+.sbbrcornerstone{
+	background: #fafafa;
+}
+.cornerstoneheading{
+	font-size: 40px;
+}
+.cornerstonepara{
+	font-size: 13px;
+}
+.sbbrcolor{
+	font-weight: 600;
+}
+.cornerstoneheading .cornerstonecolor{
+	color: var(--darkblue);
+}
+.cancolor, .othercolor, .baacolor{
+	color: var(--midblue);
+}
+.secondnavbar {
+	background: #717171 !important; 
+}
+
+
+
+
+/*Footer*/
+.midparacall {
+	font-size: 18px;
+	color: var(--darkblue);
+}
+.midparatell{
+	font-size: 18px;
+	font-weight: 600;
+}
+.footerbtn{
+	background: var(--midblue);
+	padding: 10px 8px;
+	margin-top: 10px;
+	color: white;
+}
+.lastpara,.leftcontentpara{
+	color: var(--midblue);
+	font-size: 18px;
+}
+.leftcontentpara2{
+	font-size: 16px;
+}
+.footerblade{
+	border-bottom: 1px solid black;
+}
+.lastfooter{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.msg-info-box {
+    position: relative;
+    top: -28px;
+    left: 10px;
+}
+
+.msg-info-box:before {
+	content: '';
+	height: 25px;
+	width: 25px;
+	background: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 3px;
+}
+
+
+.msg-info-box:after {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    right: 21px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 22px solid red;
+    transform: rotate(45deg);
+}
+
+.msg-info-num {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-weight: bolder;
+    right: 8px;
+    bottom: 0px;
+}'
